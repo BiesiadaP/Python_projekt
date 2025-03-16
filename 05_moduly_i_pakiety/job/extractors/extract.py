@@ -1,4 +1,5 @@
 import pandas as pd
 
-def extract(path):
-  return pd.read_csv(path)
+class CsvExtractor2:
+    def extract(self, path):
+        return pd.read_csv(path)

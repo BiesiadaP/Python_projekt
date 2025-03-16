@@ -1,8 +1,9 @@
-from extractors.extract import extract
-from loaders.load import load
-from transformations.transform import transform
+from extractors.extract import CsvExtractor2
+from loaders.load import JsonLoader
+from transformations.transform import Deduplicator
 
-def job(input_path, output_path):
-  source_data = extract(input_path)
-  transformed_data = transform(source_data)
-  load(transformed_data, output_path)
+class Job:
+    def job(self, input_path, output_path):
+      source_data = CsvExtractor2().extract(input_path)
+      transformed_data = Deduplicator().transform(source_data)
+      JsonLoader().load(transformed_data, output_path)
