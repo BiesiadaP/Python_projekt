@@ -1,3 +1,3 @@
 class Deduplicator:
-    def transform(df):
-      return df[["Imię"]].drop_duplicates()
+    def transform(self, df):
+        return df[["Imię"]].drop_duplicates()

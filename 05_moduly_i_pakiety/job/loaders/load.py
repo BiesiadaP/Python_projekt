@@ -1,3 +1,3 @@
 class JsonLoader:
-    def load(df, path):
-      return df.to_json(path, orient="records", index=False, lines=True)
+    def load(self, df, path):
+        return df.to_json(path, orient="records", index=False, lines=True, force_ascii=False)
