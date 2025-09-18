@@ -1,48 +1,7 @@
 # Inżynieria danych w Pythonie
 
-## Zajęcia
-
-Zajęcia są podzielone na następujące grupy tematyczne:
-
-### Python
-
-Cel: 
-* zapoznanie się z najczęściej stosowanymi elementami składni języka Python stosowanymi w inżynierii danych
-
-Zakres zagadnień:
-* Podstawowe struktury danych i operacje na nich
-* Zaawansowane zagadnienia dot. funkcji
-* Wprowadzenie do programowania obiektowego
-
-### PySpark
-
-Cel: 
-* wyjaśnienie podstaw architektury
-* prezentacja podstawowych obszary zastosowań
-* podstawowe operacje na danych: odczyt, transformacja, zapis
-
-### Opcjonalne zagadnienia
-
-Cel:
-* prezentacja dodatkowych technik optymalizacji i integracji danych oraz innych przydatnych zagadnień
-
-Przykładowe zagadnienia:
-* pandas - operacje wektorowe
-* integracja z REST API
-* testowanie kodu
-
-## Warunki zaliczenia
-
-* aktywność na zajęciach:
-  * prezentacja rozwiązań zadań
-  * zgłaszanie błędów (literówki się nie liczą, ale ich zgłaszanie jest mile widziane)
-  * propozycje ulepszeń
-* opcjonalnie:
-  * prosty projekt  
-
-## O mnie
-
-Mail
-
-[LinkedIn](https://www.linkedin.com/in/krzysztof-p%C5%82atek-70144010b/)
+##  Projekt - Transformacja pliku csv do json, z podziałem komponentów procesu na osobne pliki i klasy
+Kod widoczny w katalogu:
+/05_moduly_i_pakiety/job/
+Uruchomiwszy plik wykonawczy main.py, skrypt transformuje dane z pliku pracownicy.csv do pliku wynik.json
 
